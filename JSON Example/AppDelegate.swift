@@ -3,7 +3,7 @@
 //  JSON Example
 //
 //  Created by Michael Rogers on 11/4/18.
-//  Copyright © 2018 Michael Rogers. All rights reserved.
+//  Copyright © 2019 Michael Rogers. All rights reserved.
 //
 
 import UIKit

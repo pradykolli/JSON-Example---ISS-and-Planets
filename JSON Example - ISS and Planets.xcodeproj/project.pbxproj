@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		121F6ED5218F3F2000C4325F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121F6ED4218F3F2000C4325F /* AppDelegate.swift */; };
-		121F6ED7218F3F2000C4325F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121F6ED6218F3F2000C4325F /* ViewController.swift */; };
+		121F6ED7218F3F2000C4325F /* ISSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121F6ED6218F3F2000C4325F /* ISSViewController.swift */; };
 		121F6EDA218F3F2000C4325F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121F6ED8218F3F2000C4325F /* Main.storyboard */; };
 		121F6EDC218F3F2100C4325F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121F6EDB218F3F2100C4325F /* Assets.xcassets */; };
 		121F6EDF218F3F2100C4325F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121F6EDD218F3F2100C4325F /* LaunchScreen.storyboard */; };
+		127CD0D72243CD9A0097EFC8 /* TemperatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127CD0D62243CD9A0097EFC8 /* TemperatureViewController.swift */; };
+		127CD0D82243CF0E0097EFC8 /* ISSViewControllerWithMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120979EC224322B300919CD3 /* ISSViewControllerWithMapView.swift */; };
+		12D9E80B2242ED4F00D2C41E /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D9E80A2242ED4F00D2C41E /* Planet.swift */; };
+		12D9E80D2242F57B00D2C41E /* PlanetsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D9E80C2242F57B00D2C41E /* PlanetsTableViewController.swift */; };
+		12D9E80F2242F6E300D2C41E /* IssLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D9E80E2242F6E300D2C41E /* IssLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		121F6ED1218F3F2000C4325F /* JSON Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		120979EC224322B300919CD3 /* ISSViewControllerWithMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISSViewControllerWithMapView.swift; sourceTree = "<group>"; };
+		121F6ED1218F3F2000C4325F /* JSON Example - ISS and Planets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON Example - ISS and Planets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		121F6ED4218F3F2000C4325F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		121F6ED6218F3F2000C4325F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		121F6ED6218F3F2000C4325F /* ISSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSViewController.swift; sourceTree = "<group>"; };
 		121F6ED9218F3F2000C4325F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		121F6EDB218F3F2100C4325F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		121F6EDE218F3F2100C4325F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		121F6EE0218F3F2100C4325F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		127CD0D62243CD9A0097EFC8 /* TemperatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureViewController.swift; sourceTree = "<group>"; };
+		12D9E80A2242ED4F00D2C41E /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		12D9E80C2242F57B00D2C41E /* PlanetsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsTableViewController.swift; sourceTree = "<group>"; };
+		12D9E80E2242F6E300D2C41E /* IssLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +56,7 @@
 		121F6ED2218F3F2000C4325F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				121F6ED1218F3F2000C4325F /* JSON Example.app */,
+				121F6ED1218F3F2000C4325F /* JSON Example - ISS and Planets.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,11 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				121F6ED4218F3F2000C4325F /* AppDelegate.swift */,
-				121F6ED6218F3F2000C4325F /* ViewController.swift */,
+				12D9E80A2242ED4F00D2C41E /* Planet.swift */,
+				12D9E80E2242F6E300D2C41E /* IssLocation.swift */,
+				121F6ED6218F3F2000C4325F /* ISSViewController.swift */,
+				12D9E80C2242F57B00D2C41E /* PlanetsTableViewController.swift */,
+				127CD0D62243CD9A0097EFC8 /* TemperatureViewController.swift */,
 				121F6ED8218F3F2000C4325F /* Main.storyboard */,
 				121F6EDB218F3F2100C4325F /* Assets.xcassets */,
 				121F6EDD218F3F2100C4325F /* LaunchScreen.storyboard */,
 				121F6EE0218F3F2100C4325F /* Info.plist */,
+				120979EC224322B300919CD3 /* ISSViewControllerWithMapView.swift */,
 			);
 			path = "JSON Example";
 			sourceTree = "<group>";
@@ -67,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		121F6ED0218F3F2000C4325F /* JSON Example */ = {
+		121F6ED0218F3F2000C4325F /* JSON Example - ISS and Planets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 121F6EE3218F3F2100C4325F /* Build configuration list for PBXNativeTarget "JSON Example" */;
+			buildConfigurationList = 121F6EE3218F3F2100C4325F /* Build configuration list for PBXNativeTarget "JSON Example - ISS and Planets" */;
 			buildPhases = (
 				121F6ECD218F3F2000C4325F /* Sources */,
 				121F6ECE218F3F2000C4325F /* Frameworks */,
@@ -79,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = "JSON Example";
+			name = "JSON Example - ISS and Planets";
 			productName = "JSON Example";
-			productReference = 121F6ED1218F3F2000C4325F /* JSON Example.app */;
+			productReference = 121F6ED1218F3F2000C4325F /* JSON Example - ISS and Planets.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 121F6ECC218F3F2000C4325F /* Build configuration list for PBXProject "JSON Example" */;
+			buildConfigurationList = 121F6ECC218F3F2000C4325F /* Build configuration list for PBXProject "JSON Example - ISS and Planets" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				121F6ED0218F3F2000C4325F /* JSON Example */,
+				121F6ED0218F3F2000C4325F /* JSON Example - ISS and Planets */,
 			);
 		};
 /* End PBXProject section */
@@ -135,7 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				121F6ED7218F3F2000C4325F /* ViewController.swift in Sources */,
+				12D9E80F2242F6E300D2C41E /* IssLocation.swift in Sources */,
+				127CD0D72243CD9A0097EFC8 /* TemperatureViewController.swift in Sources */,
+				12D9E80B2242ED4F00D2C41E /* Planet.swift in Sources */,
+				121F6ED7218F3F2000C4325F /* ISSViewController.swift in Sources */,
+				127CD0D82243CF0E0097EFC8 /* ISSViewControllerWithMapView.swift in Sources */,
+				12D9E80D2242F57B00D2C41E /* PlanetsTableViewController.swift in Sources */,
 				121F6ED5218F3F2000C4325F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		121F6ECC218F3F2000C4325F /* Build configuration list for PBXProject "JSON Example" */ = {
+		121F6ECC218F3F2000C4325F /* Build configuration list for PBXProject "JSON Example - ISS and Planets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				121F6EE1218F3F2100C4325F /* Debug */,
@@ -324,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		121F6EE3218F3F2100C4325F /* Build configuration list for PBXNativeTarget "JSON Example" */ = {
+		121F6EE3218F3F2100C4325F /* Build configuration list for PBXNativeTarget "JSON Example - ISS and Planets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				121F6EE4218F3F2100C4325F /* Debug */,
